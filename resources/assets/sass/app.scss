@@ -1,0 +1,84 @@
+// @import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+
+
+
+/* label color */
+.input-field label {
+  color: black
+}
+/* label focus color */
+.input-field input[type=text]:focus + label {
+  color: #41D2C3;
+}
+/* label underline focus color */
+.input-field input[type=text]:focus {
+  border-bottom: 1px solid #000;
+  box-shadow: 0 1px 0 0 #000;
+}
+/* valid color */
+.input-field input[type=text].valid {
+  border-bottom: 1px solid #000;
+  box-shadow: 0 1px 0 0 #000;
+}
+/* invalid color */
+.input-field input[type=text].invalid {
+  border-bottom: 1px solid #000;
+  box-shadow: 0 1px 0 0 #000;
+}
+/* icon prefix focus color */
+.input-field .prefix.active {
+  color: #000;
+}
+
+
+// page login
+#home-layout {
+
+    margin:0;
+    padding:0;
+    background: url(../img/background-login.png) no-repeat center fixed;
+    -webkit-background-size: cover;
+    background-size: cover;
+  text-align: center;
+}
+
+#login {
+  background-color: white;
+  width: 300px;
+  margin: auto;
+  margin-top: 44vh;
+  transform: translateY(-50%);
+  box-shadow: 2px 3px 45Px black;
+}
+
+#login a {
+  color: #41D2C3;
+}
+
+#login a:hover {
+  color: #37aa9b;
+}
+
+#register {
+  background-color: white;
+  width: 600px;
+  margin: auto;
+  margin-top: 44vh;
+  transform: translateY(-50%);
+  box-shadow: 2px 3px 45Px black;
+}
+
+.title-home{
+  font-family: 'trebuchet ms', verdana, arial;
+}
+#home-layout h1{
+  font-size: 100px;
+}
+
+.header-login {
+  background-color: rgb(57, 204, 197);;
+  width: 100%;
+  padding: 1px;
+  margin-bottom: 7Px;
+}
+
